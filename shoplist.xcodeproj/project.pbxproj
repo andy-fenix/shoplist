@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					84E8623B1E0036150060B08F = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z6L8A8J82S;
 						ProvisioningStyle = Automatic;
 					};
 					84E8624F1E0036150060B08F = {
@@ -410,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6L8A8J82S;
 				INFOPLIST_FILE = shoplist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.shoplist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6L8A8J82S;
 				INFOPLIST_FILE = shoplist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.shoplist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +508,7 @@
 				84E862661E0036160060B08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E862671E0036160060B08F /* Build configuration list for PBXNativeTarget "shoplistTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				84E862691E0036160060B08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E8626A1E0036160060B08F /* Build configuration list for PBXNativeTarget "shoplistUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				84E8626C1E0036160060B08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
